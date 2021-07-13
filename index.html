@@ -1,37 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | FAQ Accordion Card</title>
   <link rel="stylesheet" href="public/styles.css">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
-<body class="flex justify-center items-center">
+
+<body class="flex justify-center items-center w-full h-screen bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500">
   <!-- Card -->
-  <main class="container flex items-center">
+  <main class="flex justify-center items-center max-w-screen-lg h-auto rounded-2xl bg-white shadow-2xl">
     <!-- Image section -->
-    <div>
-      <img src="./images/bg-pattern-desktop.svg" alt="">
-      <img src="./images/illustration-woman-online-desktop.svg" alt="">
-      <img src="./images/illustration-box-desktop.svg" alt="">
+    <div class="relative w-full h-full">
+      <img src="./images/bg-pattern-desktop.svg" alt="" class="">
+      <img src="./images/illustration-woman-online-desktop.svg" alt="" class="absolute top-1/2">
+      <img src="./images/illustration-box-desktop.svg" alt="" class="absolute top-1/2 left-0">
     </div>
     <!-- Content and dropdown section -->
-    <div>
+    <div class="p-20">
       <h2>FAQ</h2>
       <!-- Accordion -->
       <div>
         <p>How many team members can I invite?</p>
         <img src="./images/icon-arrow-down.svg" alt="">
-        <p>You can invite up to 2 additional users on the Free plan. There is no limit on 
+        <p>You can invite up to 2 additional users on the Free plan. There is no limit on
           team members for the Premium plan.</p>
       </div>
       <div>
@@ -59,9 +68,10 @@
     </div>
   </main>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Hong Leang</a>.
-  </div>
+  </div> -->
 </body>
+
 </html>
