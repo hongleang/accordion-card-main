@@ -28,41 +28,44 @@
   <!-- Card -->
   <main class="flex justify-center items-center max-w-screen-lg h-auto rounded-2xl bg-white shadow-2xl">
     <!-- Image section -->
-    <div class="relative w-full h-full">
-      <img src="./images/bg-pattern-desktop.svg" alt="" class="">
-      <img src="./images/illustration-woman-online-desktop.svg" alt="" class="absolute top-1/2">
-      <img src="./images/illustration-box-desktop.svg" alt="" class="absolute top-1/2 left-0">
+    <div class="relative w-full h-full overflow-hidden">
+      <img class="object-cover w-full h-full" src="./images/bg-pattern-desktop.svg" alt="background-desktop">
     </div>
     <!-- Content and dropdown section -->
-    <div class="p-20">
+    <div class="py-20">
       <h2>FAQ</h2>
       <!-- Accordion -->
       <div>
-        <p>How many team members can I invite?</p>
-        <img src="./images/icon-arrow-down.svg" alt="">
-        <p>You can invite up to 2 additional users on the Free plan. There is no limit on
-          team members for the Premium plan.</p>
+        <details>
+          <summary>How many team members can I invite?</summary>
+          <p>You can invite up to 2 additional users on the Free plan. There is no limit on
+            team members for the Premium plan.</p>
+        </details>
       </div>
       <div>
-        <p>What is the maximum file upload size?</p>
-        <img src="./images/icon-arrow-down.svg" alt="">
-        <p>No more than 2GB. All files in your account must fit your allotted storage space.</p>
+        <details>
+          <summary>What is the maximum file upload size?</summary>
+          <p>No more than 2GB. All files in your account must fit your allotted storage space.</p>
+        </details>
       </div>
       <div>
-        <p>How do I reset my password?</p>
-        <img src="./images/icon-arrow-down.svg" alt="">
-        <p>Click “Forgot password” from the login page or “Change password” from your profile page.
-          A reset link will be emailed to you.</p>
+        <details>
+          <summary>How do I reset my password?</summary>
+          <p>Click “Forgot password” from the login page or “Change password” from your profile page.
+            A reset link will be emailed to you.</p>
+        </details>
       </div>
       <div>
-        <p> Can I cancel my subscription?</p>
-        <img src="./images/icon-arrow-down.svg" alt="">
-        <p>Yes! Send us a message and we’ll process your request no questions asked.</p>
+        <details>
+          <summary>Can I cancel my subscription?</summary>
+          <p>Yes! Send us a message and we’ll process your request no questions asked.</p>
+        </details>
       </div>
       <div>
-        <p>Do you provide additional support?</p>
-        <img src="./images/icon-arrow-down.svg" alt="">
-        <p>Chat and email support is available 24/7. Phone lines are open during normal business hours. </p>
+        <details>
+          <summary>Do you provide additional support?</summary>
+          <p>Chat and email support is available 24/7. Phone lines are open during normal business hours. </p>
+        </details>
       </div>
       <!-- end -->
     </div>
