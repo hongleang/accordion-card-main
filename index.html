@@ -24,47 +24,48 @@
   </style>
 </head>
 
-<body class="flex justify-center items-center w-full h-screen bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500">
+<body class="flex justify-center items-center h-screen bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500">
   <!-- Card -->
-  <main class="flex justify-center items-center max-w-screen-lg h-auto rounded-2xl bg-white shadow-2xl">
+  <main class="transform -translate-y-16 px-8">
     <!-- Image section -->
-    <div class="relative w-full h-full overflow-hidden">
-      <img class="object-cover w-full h-full" src="./images/bg-pattern-desktop.svg" alt="background-desktop">
+    <div class="relative transform translate-y-60 w-80 h-80">
+      <img class="absolute -top-5 left-0 right-5 w-60 mx-auto text-center" src="./images/illustration-woman-online-mobile.svg" alt="">
+      <img class="absolute top-16 left-0 right-0 w-60 mx-auto text-center" src="./images/bg-pattern-mobile.svg" alt="">
     </div>
     <!-- Content and dropdown section -->
-    <div class="py-20">
-      <h2>FAQ</h2>
+    <div class="bg-white max-w-80 px-8 pt-24 mb-20 rounded-3xl shadow-lg">
+      <h2 class="text-center text-3xl font-bold my-5">FAQ</h2>
       <!-- Accordion -->
       <div>
-        <details>
-          <summary>How many team members can I invite?</summary>
-          <p>You can invite up to 2 additional users on the Free plan. There is no limit on
+        <details class="py-5 border-b-2">
+          <summary class="flex justify-between items-center text-sm font-normal">How many team members can I invite?</summary>
+          <p class="text-dark text-xs font-normal">You can invite up to 2 additional users on the Free plan. There is no limit on
             team members for the Premium plan.</p>
         </details>
       </div>
       <div>
-        <details>
-          <summary>What is the maximum file upload size?</summary>
-          <p>No more than 2GB. All files in your account must fit your allotted storage space.</p>
+        <details class="py-5 border-b-2">
+          <summary class="flex justify-between items-center text-sm font-normal">What is the maximum file upload size?</summary>
+          <p class="text-dark text-xs font-normal">No more than 2GB. All files in your account must fit your allotted storage space.</p>
         </details>
       </div>
       <div>
-        <details>
-          <summary>How do I reset my password?</summary>
-          <p>Click “Forgot password” from the login page or “Change password” from your profile page.
+        <details class="py-5 border-b-2">
+          <summary class="flex justify-between items-center text-sm font-normal">How do I reset my password?</summary>
+          <p class="text-dark text-xs font-normal">Click “Forgot password” from the login page or “Change password” from your profile page.
             A reset link will be emailed to you.</p>
         </details>
       </div>
       <div>
-        <details>
-          <summary>Can I cancel my subscription?</summary>
-          <p>Yes! Send us a message and we’ll process your request no questions asked.</p>
+        <details class="py-5 border-b-2">
+          <summary class="flex justify-between items-center text-sm font-normal">Can I cancel my subscription?</summary>
+          <p class="text-dark text-xs font-normal">Yes! Send us a message and we’ll process your request no questions asked.</p>
         </details>
       </div>
       <div>
-        <details>
-          <summary>Do you provide additional support?</summary>
-          <p>Chat and email support is available 24/7. Phone lines are open during normal business hours. </p>
+        <details class="py-5 border-b-2">
+          <summary class="flex justify-between items-center text-sm font-normal">Do you provide additional support?</summary>
+          <p class="text-dark text-xs font-normal">Chat and email support is available 24/7. Phone lines are open during normal business hours. </p>
         </details>
       </div>
       <!-- end -->
