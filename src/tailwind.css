@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+details>summary {
+  list-style-type: none;
+}
+
+details summary::webkit-details-marker {
+  display: none;
+}
+
+details>summary::after {
+  content: url('../images/icon-arrow-down.svg');
+  @apply text-lg;
+}
+
+details[open] > summary::after {
+  content: url('../images/icon-arrow-down.svg');
+  @apply transform rotate-180 origin-top;
+}
+
+details[open] > summary::after {
+  @apply font-bold;
+}
